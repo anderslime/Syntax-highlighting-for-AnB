@@ -4,7 +4,6 @@ name: AnB
 scopeName: source.anb
 fileTypes: ['anb']
 uuid: 4a317e23-129f-422b-917c-3273d89ec057
-# support.function.name
 
 patterns:
   -
