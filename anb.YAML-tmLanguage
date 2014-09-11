@@ -1,0 +1,29 @@
+# [PackageDev] target_format: plist, ext: tmLanguage
+---
+name: AnB
+scopeName: source.anb
+fileTypes: ['anb']
+uuid: 4a317e23-129f-422b-917c-3273d89ec057
+# support.function.name
+
+patterns:
+  -
+    match: "#.+$"
+    name: "comment.block.anb"
+    comment: 'comments'
+  -
+    match: "(Protocol|Types|Agent|Number|Function|Symmetric_key|PublicKey|Knowledge|where|Actions|Goals|authenticates|on|secrecy|of)(:?)"
+    name: 'keyword.source.anb'
+    comment: 'keywords'
+  -
+    match: "[a-z][a-zA-Z0-9_]*|[0-9]*"
+    name: "support.function.name.anb"
+    comment: 'constants'
+  -
+    match: "\\b[A-Z_][a-zA-Z0-9_]*"
+    name: 'constant.numeric.anb'
+    comment: 'hey'
+  -
+    match: "->"
+    name: 'keyword.source.anb'
+    comment: 'basic keyword'
