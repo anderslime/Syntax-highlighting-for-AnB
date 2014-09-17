@@ -23,4 +23,4 @@ To open this folder open Preference in the tab menu and select Browse Packages.
 
 # Contribution
 
-If there is something you don't agree on or just want to improve, please open an Issue or Pull Request.
+If there is something you don't agree on or you just want to improve, please open an Issue or Pull Request.
