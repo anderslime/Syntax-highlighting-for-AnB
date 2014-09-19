@@ -28,6 +28,14 @@
 		</dict>
 		<dict>
 			<key>comment</key>
+			<string>builtinfunctions</string>
+			<key>match</key>
+			<string>(exp|inv)</string>
+			<key>name</key>
+			<string>storage.type.name.anb</string>
+		</dict>
+		<dict>
+			<key>comment</key>
 			<string>constants</string>
 			<key>match</key>
 			<string>[a-z][a-zA-Z0-9_]*|[0-9]*</string>
