@@ -22,7 +22,7 @@
 			<key>comment</key>
 			<string>keywords</string>
 			<key>match</key>
-			<string>(Protocol|Types|Agent|Number|Function|Symmetric_key|PublicKey|Knowledge|where|Actions|Goals|authenticates|on|secrecy|of)(:?)</string>
+			<string>(Protocol|Types|Agent|Number|Function|Symmetric_key|PublicKey|Knowledge|where|Actions|Goals|authenticates|on|secrecy|of|secret|between)(:?)</string>
 			<key>name</key>
 			<string>keyword.source.anb</string>
 		</dict>
