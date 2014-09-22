@@ -20,19 +20,19 @@
 		</dict>
 		<dict>
 			<key>comment</key>
-			<string>keywords</string>
-			<key>match</key>
-			<string>(Protocol|Types|Agent|Number|Function|Symmetric_key|PublicKey|Knowledge|where|Actions|Goals|authenticates|on|secrecy|of|secret|between)(:?)</string>
-			<key>name</key>
-			<string>keyword.source.anb</string>
-		</dict>
-		<dict>
-			<key>comment</key>
 			<string>builtinfunctions</string>
 			<key>match</key>
 			<string>(exp|inv)</string>
 			<key>name</key>
 			<string>storage.type.name.anb</string>
+		</dict>
+		<dict>
+			<key>comment</key>
+			<string>keywords</string>
+			<key>match</key>
+			<string>(Protocol|Types|Agent|Number|Function|Symmetric_key|PublicKey|Knowledge|where|Actions|Goals|authenticates|on|secrecy|of|secret|between)(:?)</string>
+			<key>name</key>
+			<string>keyword.source.anb</string>
 		</dict>
 		<dict>
 			<key>comment</key>

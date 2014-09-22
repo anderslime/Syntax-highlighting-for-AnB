@@ -11,6 +11,10 @@ patterns:
     name: "comment.block.anb"
     comment: 'comments'
   -
+    match: (exp|inv)
+    name: storage.type.name.anb
+    comment: builtinfunctions
+  -
     match: "(Protocol|Types|Agent|Number|Function|Symmetric_key|PublicKey|Knowledge|where|Actions|Goals|authenticates|on|secrecy|of|secret|between)(:?)"
     name: 'keyword.source.anb'
     comment: 'keywords'
