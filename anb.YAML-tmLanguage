@@ -11,7 +11,7 @@ patterns:
     name: "comment.block.anb"
     comment: 'comments'
   -
-    match: "(Protocol|Types|Agent|Number|Function|Symmetric_key|PublicKey|Knowledge|where|Actions|Goals|authenticates|on|secrecy|of)(:?)"
+    match: "(Protocol|Types|Agent|Number|Function|Symmetric_key|PublicKey|Knowledge|where|Actions|Goals|authenticates|on|secrecy|of|secret|between)(:?)"
     name: 'keyword.source.anb'
     comment: 'keywords'
   -
